@@ -1,0 +1,6 @@
+HTML and CSS
+JavaScript
+Bootstrap
+HTML5 and CSS5
+Jquery
+React
