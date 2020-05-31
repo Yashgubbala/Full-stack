@@ -1,0 +1,18 @@
+table,th,td{
+    border: 5px black;
+    border-style: solid;
+}
+tr{
+    height: 30px;
+}
+tr{
+    text-align: center;
+    vertical-align: middle;
+}
+td{
+    height: 40px;
+    width: 900px;
+    text-align: center;
+    padding: 10px;
+
+}
