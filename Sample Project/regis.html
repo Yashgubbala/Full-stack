@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <script src="regis.js"></script>
+        <link href="home.css" rel="stylesheet"/>
+        
+    </head>
+   
+    <body style="background-color: antiquewhite;">
+        <table>
+            <tr>
+                <th colspan="6">
+                    <div style="float: left;">
+                        <img src="git.jpg" height="70px" width="80px"/>
+                    </div>
+                    <div style="float: right;">
+                    <img src="git.jpg" height="70px" width="80px"/>
+                </div>
+                <div style="text-align: center; font-size: xxx-large; color:darkred; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Gitam University</div>
+                </th>
+            </tr>
+            <tr>
+                <td >
+                    <a href="home.html" target="blank">Home</a>
+                    <a href="about.html" target="blank">About Us</a>
+                    <a href="contact.html" target="blank">Contact Us</a>
+                    <a href="regis.html" target="blank">Registration</a>
+                    <a href="login.html" target="blank">Login</a>
+                    <a href="feedback.html" target="blank">Feedback</a>
+                    
+                    
+                </td>
+            </tr>
+        </table>
+        <table border="5px" align="left" style="padding: 10px;   background-color: antiquewhite; ">
+            <tr style="padding: 1px;">
+                <td id="a2"><h1 style="text-align: left; border-bottom: 5px solid black;">Registration Form</h1>
+                    First Name: <input type="text" placeholder="First name" id="txtFn"/><br><br>
+                    Last Name: <input type="text" id="txtLn" placeholder="Last Name"><br><br>
+                    Date of Birth: <input type="text" id="dateob" placeholder="DOB"/><br><br>
+                    Email: <input type="email" id="email" placeholder="Email"/><br><br>
+                    Phone Number: <input type="text" id="pn" placeholder="Phone no"/><br><br>
+                    Address: <textarea rows="5" cols="30" id="add" placeholder="Address"></textarea><br>
+                    Gender: <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                   
+                    Course: <input type="text" id="txtcourse" placeholder="Course"/><br><br><br>
+                    <input  type="button" value="Submit" onclick="validate()"/> 
+                    <input type="button" value="Cancel"/></td>
+        
+    </tr>
+    </table>
+    </body>
+</html>
