@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Age Verification</title>
+        <script>
+            function validate(){
+                var date = document.getElementById("txtdob").value;
+                var d = /^(([0-2][0-9])|([3][0-1]))[/](([0][1-9])|([1][0-2]))[/]([1][9][0-9]{2})|([2][0][0-9]{2})$/;
+                var yr = date.split("/");
+                if(d.test(date)){
+                    if((2020-parseInt(yr[2]))>=18){
+                        window.alert("Eligible");
+                    }
+                    else{
+                            window.alert("Not Eligible");
+                        }
+                }
+                else{
+                    window.alert("Enter in mm/dd/yy form");
+                }
+                
+            }
+        </script>
+    </head>
+    <body>
+        Date of Birth:<input type="text"  id="txtdob"/><br><br>
+        <button type="button" onclick="validate()">Submit</button>
+    </body>
+</html>
